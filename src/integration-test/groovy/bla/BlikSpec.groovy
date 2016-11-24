@@ -16,7 +16,7 @@ class BlikSpec extends Specification {
     }
 
     void "test something"() {
-        expect:"fix me"
-            true == false
+        expect:"This will fail with beanNotFoundExcdption"
+            true == true
     }
 }
