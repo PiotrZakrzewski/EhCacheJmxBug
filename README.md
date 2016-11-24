@@ -1,4 +1,8 @@
 # Repo demonstrating bug in wiring beans during Spock Integration tests
+This is vanilla grails application with two simple tests and single aditional line in build.gradle:
+ 
+    compile ("org.grails.plugins:cache-ehcache:3.0.0.BUILD-SNAPSHOT")
+
 First run 
  
     grails test run-app
